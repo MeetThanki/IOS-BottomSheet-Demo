@@ -16,5 +16,13 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func btnPressed(_ sender: UIButton){
+        
+        let vc = SecondViewController()
+        vc.modalPresentationStyle = .custom
+        present(vc, animated: true, completion: nil)
+        
+    }
+    
 }
 
